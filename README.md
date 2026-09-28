@@ -128,9 +128,15 @@ I'm continuously learning, experimenting with new technologies, and contributing
 
 <div align="center">
 
-<i>"Code is like humor. When you have to explain it, it's bad."</i>
+<i>ὅτι ἃ μὴ οἶδα οὐδὲ οἴομαι εἰδέναι.</i>
 
-<br /><br />
+<br />
+
+“What I do not know I do not think I know.”
+
+<br />
+
+— <b>Socrates</b>, Plato, <i>Apology</i> 21d
 
 ⭐ Thanks for visiting my profile!
 
