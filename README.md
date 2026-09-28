@@ -49,7 +49,7 @@
 <br/><br/>
 
 <!-- Dibuat otomatis oleh workflow "Metrics" -->
-<img src="./metrics.svg" alt="github metrics" width="100%" />
+<img src="./metrics.yml" alt="github metrics" width="100%" />
 
 </div>
 
@@ -59,9 +59,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/elvadsah/elvadsah/output/snake.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/elvadsah/elvadsah/output/snake.svg" />
-    <img alt="snake animation" src="https://raw.githubusercontent.com/elvadsah/elvadsah/output/snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/elvadsah/elvadsah/output/snake.yml" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/elvadsah/elvadsah/output/snake.yml" />
+    <img alt="snake animation" src="https://raw.githubusercontent.com/elvadsah/elvadsah/output/snake.yml" />
   </picture>
 </div>
 
