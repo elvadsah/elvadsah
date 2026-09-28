@@ -1,83 +1,51 @@
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=240&section=header&text=Halo,%20Saya%20Nama%20Kamu&fontSize=48&fontColor=ffffff&fontAlignY=38&animation=twinkling&desc=Software%20Developer%20%7C%20Problem%20Solver%20%7C%20Lifelong%20Learner&descSize=18&descAlignY=58" width="100%" alt="header" /> </div> <div align="center">
+
+<img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="32" /> Selamat datang di profil saya! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="32" />
+
+<img src="https://komarev.com/ghpvc/?username=elvadsah&style=for-the-badge&color=8A2BE2&label=PROFILE+VIEWS" alt="profile views" /> <a href="https://github.com/elvadsah?tab=followers"><img src="https://img.shields.io/github/followers/elvadsah?style=for-the-badge&logo=github&color=8A2BE2" alt="followers" /></a> <a href="https://github.com/elvadsah?tab=repositories"><img src="https://img.shields.io/badge/Jakarta-Indonesia-FF4B4B?style=for-the-badge&logo=googlemaps&logoColor=white" alt="location" /></a> </div> <br/> <!-- ═══════════════ TENTANG SAYA ═══════════════ -->
+🚀 Tentang Saya
+<img align="right" alt="coding" width="380" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" />
+🔭 Sedang mengerjakan proyek keren yang mengubah ide jadi kenyataan
+🌱 Sedang belajar Cloud, AI/ML, dan System Design
+👯 Terbuka untuk kolaborasi open source
+💬 Tanya saya tentang JavaScript, Python, dan Web Development
+⚡ Fun fact: kopi adalah bahan bakar kode saya ☕
+📫 Hubungi saya lewat email atau LinkedIn di bawah
+
+<br/><br/>
+
+<!-- ═══════════════ TECH STACK ═══════════════ -->
+🛠️ Tech Stack
 <div align="center">
 
-  <!-- Header Typing Animation -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00F5D4&center=true&vCenter=true&random=false&width=650&height=70&lines=SYSTEM.INITIALIZE(%22ADITYA_SAHRIN%22);Full-Stack+%26+System+Architect;Python+%7C+FastAPI+%7C+React+%7C+TypeScript;Optimizing+High-CCU+%26+Distributed+DB;" alt="Typing SVG" />
-  </a>
+Bahasa & Framework
 
-  <!-- Animated Wave Header Divider -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,24,35,40&height=120&section=header" width="100%" />
+<img src="https://skillicons.dev/icons?i=js,ts,python,java,php,go,html,css,react,nextjs,nodejs,laravel&perline=12" />
 
-  <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=elvadsah&label=SYSTEM_ACCESSES&color=00f5d4&style=flat-square" alt="Visits" />
-    <img src="https://img.shields.io/badge/STATUS-COMPILING_REALITY-7928CA?style=flat-square" alt="Status" />
-    <img src="https://img.shields.io/badge/UPTIME-99.99%25-green?style=flat-square" alt="Uptime" />
-  </p>
+Database & Cloud
 
-</div>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,firebase,aws,docker,kubernetes&perline=12" />
 
-zsh
-> elvadsah --status --verbose
-┌───────────────────────┬────────────────────────────────────────────────────────┐
-│ USER_ID               │ Aditya Sahrin (elvadsah)                               │
-│ PRIMARY_ROLE          │ Full-Stack Software Engineer                           │
-│ LOCATION              │ Palembang, ID [UTC+07:00]                              │
-│ ARCHITECTURE          │ Event-Driven, Microservices, High-CCU Concurrency      │
-│ HARDENING             │ HMAC Banking Gateways, OIDC Identity, Postgre Locking  │
-│ KERNEL_FAVORITE       │ Linux (CachyOS / Arch)                                 │
-└───────────────────────┴────────────────────────────────────────────────────────┘
+Tools
 
-
+<img src="https://skillicons.dev/icons?i=git,github,linux,vscode,figma,postman,nginx,vim&perline=12" /> </div> <br/> <!-- ═══════════════ GITHUB STATS ═══════════════ -->
+📊 GitHub Stats
+<div align="center"> <img height="180" src="https://github-readme-stats.vercel.app/api?username=elvadsah&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="stats" /> <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elvadsah&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top languages" /> <img src="https://streak-stats.demolab.com?user=elvadsah&theme=tokyonight&hide_border=true&border_radius=10" alt="streak" /> </div> <br/> <!-- ═══════════════ TROPHY ═══════════════ -->
+🏆 Trophy
+<div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=elvadsah&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=12" alt="trophies" /> </div> <br/> <!-- ═══════════════ ACTIVITY GRAPH ═══════════════ -->
+📈 Grafik Aktivitas Kontribusi
+<div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=elvadsah&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" width="100%" alt="activity graph" /> </div> <br/> <!-- ═══════════════ SNAKE ANIMATION ═══════════════ -->
+🐍 Snake Memakan Kontribusi
+<div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/elvadsah/elvadsah/output/github-snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/elvadsah/elvadsah/output/github-snake.svg" /> <img alt="snake animation" src="https://raw.githubusercontent.com/elvadsah/elvadsah/output/github-snake-dark.svg" /> </picture> </div> <br/> <!-- ═══════════════ PROYEK ═══════════════ -->
+📌 Proyek Unggulan
+<div align="center"> <a href="https://github.com/elvadsah/nama-repo-1"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=elvadsah&repo=nama-repo-1&theme=tokyonight&hide_border=true" /> </a> <a href="https://github.com/elvadsah/nama-repo-2"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=elvadsah&repo=nama-repo-2&theme=tokyonight&hide_border=true" /> </a> <a href="https://github.com/elvadsah/nama-repo-3"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=elvadsah&repo=nama-repo-3&theme=tokyonight&hide_border=true" /> </a> <a href="https://github.com/elvadsah/nama-repo-4"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=elvadsah&repo=nama-repo-4&theme=tokyonight&hide_border=true" /> </a> </div> <br/> <!-- ═══════════════ KONTAK ═══════════════ -->
+🤝 Mari Terhubung
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=800&color=7000FF&center=true&vCenter=true&width=500&lines=%5B%20CORE_WEAPONS_SYSTEMS%20%5D" alt="Skills" />
-</div>
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,redis,docker,ts,react,tailwind,linux,git&perline=10&theme=dark" alt="Tech Stack" />
-  </a>
-</p>
+<a href="https://linkedin.com/in/elvadsah"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="mailto:email@kamu.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a> <a href="https://instagram.com/elvadsah"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a> <a href="https://twitter.com/elvadsah"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a> <a href="https://elvadsah.dev"><img src="https://img.shields.io/badge/Portfolio-8A2BE2?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=elvadsah&show_icons=true&theme=synthwave&hide_border=true&count_private=true&bg_color=00000000" width="100%" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=elvadsah&layout=compact&theme=synthwave&hide_border=true&bg_color=00000000" width="100%" />
-    </td>
-  </tr>
-</table>
+<br/><br/>
 
-<div align="center">
-  <!-- Interactive Dynamic Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=elvadsah&theme=github-compact&bg_color=00000000&color=00F5D4&line=7928CA&point=FFFFFF&hide_border=true" width="95%" alt="Contribution Graph" />
-</div>
+<i>"Code is like humor. When you have to explain it, it's bad."</i>
 
-
-
-Live Mission & Execution
-
-python
-class MissionControl:
-    def init(self):
-        self.focus = [
-            "Scaling SIAK to handle 1000+ CCU without DB deadlocks",
-            "NeoFeeder PDDikti high-volume bidirectional synchronization",
-            "Zero-trust HMAC & Multi-role SSO architecture"
-        ]
-
-    def current_state(self) -> str:
-        return "Refactoring legacy bottlenecks -> Pure async performance"
-
-
-<div align="center">
-  <!-- Animated Footer Wave -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,24,35,40&height=100&section=footer" width="100%" />
-
-  <p align="center">
-    <a href="mailto:aditya.sahrin@uigm.ac.id">
-      <img src="https://img.shields.io/badge/PING_TERMINAL-aditya.sahrin@uigm.ac.id-00F5D4?style=for-the-badge&logo=minutemailer&logoColor=black" />
-    </a>
-  </p>
-</div>
+</div> <!-- ═══════════════ FOOTER (animasi twinkling) ═══════════════ --> <div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer&animation=twinkling" width="100%" alt="footer" /> </div>
