@@ -128,8 +128,8 @@ I'm continuously learning, experimenting with new technologies, and contributing
 
 <div align="center">
 
-<i>ὅτι ἃ μὴ οἶδα οὐδὲ οἴομαι εἰδέναι.</i>
-“What I do not know I do not think I know.”
+<i>ὅτι ἃ μὴ οἶδα οὐδὲ οἴομαι εἰδέναι.</i><br />
+“What I do not know I do not think I know.”<br />
 — <b>Socrates</b>, Plato, <i>Apology</i> 21d
 <br />
 
