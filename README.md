@@ -105,52 +105,20 @@ I'm continuously learning, experimenting with new technologies, and contributing
 
 ---
 
-## 🚀 What I Build
-
-I enjoy working on projects involving:
-
-```text
-Web Applications
-        │
-        ├── Frontend
-        ├── Backend
-        └── API & Integration
-                │
-                ▼
-        Infrastructure
-        ├── Linux
-        ├── Docker
-        ├── Networking
-        └── Cloud Services
-                │
-                ▼
-        Intelligent Systems
-        ├── AI Applications
-        ├── Automation
-        └── Developer Tooling
-```
-
-My focus is not only on making software work, but also on making it **understandable, maintainable, secure, and practical**.
-
----
-
 ## 🤝 Let's Connect
 
 <div align="center">
 
-<a href="https://linkedin.com/in/elvadsah">
+<a href="https://linkedin.com/in/adityasahrin">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="mailto:email@kamu.com">
+<a href="mailto:aditya.sahrin@uigm.ac.id">
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
-<a href="https://instagram.com/elvadsah">
+<a href="https://instagram.com/aditya.sahrin">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
 </a>
-<a href="https://twitter.com/elvadsah">
-  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" />
-</a>
-<a href="https://elvadsah.dev">
+<a href="https://asciii.my.id">
   <img src="https://img.shields.io/badge/Portfolio-8A2BE2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
 </a>
 
