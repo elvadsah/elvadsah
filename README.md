@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="./header.svg" width="100%" alt="Elvadsah — Developer Profile Header" />
-</p>
-
-<p align="center">
-  <img src="./assets/profile-card.svg" width="100%" alt="Elvadsah — Developer Profile Card" />
+  <img src="./header.svg" width="100%" alt="Elvadsah — Developer Profile" />
 </p>
 
 <br />
