@@ -38,11 +38,46 @@
         values="-560 0; 560 0; -560 0" keyTimes="0; 0.6; 1" dur="6s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- Radial Glow for Orbit System -->
-    <radialGradient id="orbitGlow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    <!-- Solar System Gradients & Glows -->
+    <radialGradient id="solarNebulaGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.35"/>
+      <stop offset="35%" stop-color="#38bdf8" stop-opacity="0.18"/>
+      <stop offset="75%" stop-color="#818cf8" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
     </radialGradient>
+
+    <radialGradient id="sunCorona" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#f59e0b" stop-opacity="0.5"/>
+      <stop offset="75%" stop-color="#ea580c" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ea580c" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="sunBody" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#fef08a"/>
+      <stop offset="65%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </radialGradient>
+
+    <linearGradient id="earthGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="40%" stop-color="#2563eb"/>
+      <stop offset="70%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+
+    <linearGradient id="marsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fca5a5"/>
+      <stop offset="50%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+
+    <linearGradient id="saturnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
 
     <clipPath id="canvasClip">
       <rect width="1000" height="1440" rx="20" />
@@ -103,9 +138,10 @@
     <rect width="1000" height="1440" fill="url(#dotPattern)" />
     <rect x="1" y="1" width="998" height="1438" rx="20" stroke="url(#movingBorder)" stroke-width="2.5" fill="none" />
 
-    <!-- SECTION 1: HERO ORBITAL HEADER (Light) -->
-    <circle cx="800" cy="110" r="120" fill="url(#orbitGlow)">
-      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4s" repeatCount="indefinite"/>
+    <!-- SECTION 1: HERO SOLAR SYSTEM HEADER (Light) -->
+    <!-- Ambient Solar System Nebula Glow centered on (850, 110) -->
+    <circle cx="850" cy="110" r="125" fill="url(#solarNebulaGlow)">
+      <animate attributeName="opacity" values="0.6;0.95;0.6" dur="4s" repeatCount="indefinite"/>
     </circle>
 
     <!-- Name & Title -->
@@ -132,40 +168,103 @@
       </text>
     </g>
 
-    <!-- Orbit System (Right Side) -->
+    <!-- Solar System Animation (Right Side) -->
     <g transform="translate(50, -20)">
-      <path d="M680 130 H920 M800 15 V245" stroke="#cbd5e1" stroke-width="1.2"/>
-
-      <!-- Outer ring -->
-      <g>
-        <circle cx="800" cy="130" r="88" fill="none" stroke="#2563eb" stroke-width="1.5"
-                stroke-dasharray="3 9" opacity="0.85"/>
-        <circle cx="800" cy="42" r="5.5" fill="#2563eb"/>
-        <animateTransform attributeName="transform" type="rotate"
-                          from="0 800 130" to="360 800 130" dur="22s" repeatCount="indefinite"/>
-      </g>
-
-      <!-- Middle ring -->
-      <g>
-        <circle cx="800" cy="130" r="58" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
-        <circle cx="858" cy="130" r="4.5" fill="#0f172a"/>
-        <animateTransform attributeName="transform" type="rotate"
-                          from="360 800 130" to="0 800 130" dur="14s" repeatCount="indefinite"/>
-      </g>
-
-      <!-- Inner ring -->
-      <g>
-        <circle cx="800" cy="130" r="32" fill="none" stroke="#7c3aed" stroke-width="1.3"
-                stroke-dasharray="45 22" opacity="0.9"/>
-        <animateTransform attributeName="transform" type="rotate"
-                          from="0 800 130" to="360 800 130" dur="8s" repeatCount="indefinite"/>
-      </g>
-
-      <!-- Pulsing Core -->
-      <circle cx="800" cy="130" r="11" fill="#2563eb">
-        <animate attributeName="r" values="11;14;11" dur="2.4s" repeatCount="indefinite"/>
+      <!-- Cosmic Star Twinkles -->
+      <circle cx="715" cy="45" r="1.2" fill="#38bdf8" opacity="0.6">
+        <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.2s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="800" cy="130" r="4" fill="#ffffff"/>
+      <circle cx="915" cy="35" r="1.1" fill="#fde047" opacity="0.5">
+        <animate attributeName="opacity" values="0.8;0.2;0.8" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="700" cy="180" r="1" fill="#818cf8" opacity="0.5">
+        <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="920" cy="205" r="1.3" fill="#67e8f9" opacity="0.6">
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.6s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Orbit Tracks -->
+      <!-- Mercury Orbit (r=26) -->
+      <circle cx="800" cy="130" r="26" fill="none" stroke="#94a3b8" stroke-width="0.9" stroke-dasharray="2 3" opacity="0.45"/>
+      <!-- Venus Orbit (r=44) -->
+      <circle cx="800" cy="130" r="44" fill="none" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 4" opacity="0.55"/>
+      <!-- Earth Orbit (r=64) -->
+      <circle cx="800" cy="130" r="64" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.7"/>
+      <!-- Mars Orbit (r=80) -->
+      <circle cx="800" cy="130" r="80" fill="none" stroke="#fca5a5" stroke-width="1" stroke-dasharray="3 5" opacity="0.5"/>
+      <!-- Saturn Orbit (r=96) -->
+      <circle cx="800" cy="130" r="96" fill="none" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="2 6" opacity="0.45"/>
+
+      <!-- Orbiting Celestial Bodies -->
+
+      <!-- 1. Mercury (Utarid) -->
+      <g>
+        <circle cx="800" cy="104" r="2.5" fill="#94a3b8"/>
+        <animateTransform attributeName="transform" type="rotate"
+                          from="0 800 130" to="360 800 130" dur="6.5s" repeatCount="indefinite"/>
+      </g>
+
+      <!-- 2. Venus (Kejora) -->
+      <g>
+        <circle cx="844" cy="130" r="3.5" fill="#f59e0b"/>
+        <animateTransform attributeName="transform" type="rotate"
+                          from="75 800 130" to="435 800 130" dur="11s" repeatCount="indefinite"/>
+      </g>
+
+      <!-- 3. Earth & Orbiting Moon (Bumi & Bulan) -->
+      <g>
+        <g transform="translate(800, 66)">
+          <!-- Earth atmosphere glow -->
+          <circle cx="0" cy="0" r="6.5" fill="#38bdf8" opacity="0.35"/>
+          <!-- Earth Globe -->
+          <circle cx="0" cy="0" r="5.2" fill="url(#earthGrad)"/>
+          <!-- Moon Orbit Track -->
+          <circle cx="0" cy="0" r="10" fill="none" stroke="#94a3b8" stroke-width="0.7" stroke-dasharray="1.5 2" opacity="0.55"/>
+          <!-- Moon Orbiting Earth -->
+          <g>
+            <circle cx="10" cy="0" r="1.6" fill="#cbd5e1" stroke="#64748b" stroke-width="0.4"/>
+            <animateTransform attributeName="transform" type="rotate"
+                              from="0 0 0" to="360 0 0" dur="2.6s" repeatCount="indefinite"/>
+          </g>
+        </g>
+        <!-- Earth Sub-system Orbiting Sun -->
+        <animateTransform attributeName="transform" type="rotate"
+                          from="190 800 130" to="550 800 130" dur="18s" repeatCount="indefinite"/>
+      </g>
+
+      <!-- 4. Mars (Planet Merah) -->
+      <g>
+        <circle cx="800" cy="210" r="3.8" fill="url(#marsGrad)"/>
+        <circle cx="800" cy="209" r="1.1" fill="#fee2e2" opacity="0.75"/>
+        <animateTransform attributeName="transform" type="rotate"
+                          from="290 800 130" to="650 800 130" dur="27s" repeatCount="indefinite"/>
+      </g>
+
+      <!-- 5. Saturn with Planetary Rings (Saturnus) -->
+      <g>
+        <g transform="translate(896, 130)">
+          <!-- Saturn Ring Back -->
+          <ellipse cx="0" cy="0" rx="9.5" ry="3.5" fill="none" stroke="#d97706" stroke-width="1.8" opacity="0.7" transform="rotate(-25)"/>
+          <!-- Saturn Planet Body -->
+          <circle cx="0" cy="0" r="4.6" fill="url(#saturnGrad)"/>
+          <!-- Saturn Ring Front Highlight -->
+          <ellipse cx="0" cy="0" rx="8" ry="2.8" fill="none" stroke="#fef08a" stroke-width="0.9" opacity="0.9" transform="rotate(-25)"/>
+        </g>
+        <!-- Saturn Orbiting Sun -->
+        <animateTransform attributeName="transform" type="rotate"
+                          from="335 800 130" to="695 800 130" dur="40s" repeatCount="indefinite"/>
+      </g>
+
+      <!-- Central Sun (Matahari) -->
+      <!-- Corona Glow Pulse -->
+      <circle cx="800" cy="130" r="21" fill="url(#sunCorona)">
+        <animate attributeName="r" values="19;24;19" dur="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.75;1;0.75" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <!-- Sun Core -->
+      <circle cx="800" cy="130" r="10.5" fill="url(#sunBody)"/>
+      <circle cx="798" cy="128" r="3" fill="#ffffff" opacity="0.5"/>
     </g>
 
     <!-- SECTION 2: INTEGRATED PROFILE.SH TERMINAL -->
@@ -188,39 +287,18 @@
       <text x="56" y="295" font-family="'Segoe UI', -apple-system, sans-serif" font-size="28.2" font-weight="800" fill="#0f172a">
         Designing, Building &amp; Improving Scalable Software Systems
       </text>
-      <text x="56" y="326" font-family="'Segoe UI', -apple-system, sans-serif" font-size="16.2" font-weight="400" fill="#334155" letter-spacing="0.72">
-        Passionate about backend engineering, cloud architecture, AI/ML pipelines, and resilient system design.
+      <text x="56" y="326" font-family="'Segoe UI', -apple-system, sans-serif" font-size="16.2" font-weight="400" fill="#334155" letter-spacing="0.32">
+        Passionate about backend engineering, cloud-native architecture, distributed systems, and resilient infrastructure.
       </text>
-      <text x="56" y="350" font-family="'Segoe UI', -apple-system, sans-serif" font-size="16.2" font-weight="400" fill="#334155" letter-spacing="0.18">
-        Dedicated to transforming complex technology into reliable, maintainable, and high-impact software solutions.
+      <text x="56" y="350" font-family="'Segoe UI', -apple-system, sans-serif" font-size="16.2" font-weight="400" fill="#334155" letter-spacing="0.6">
+        Driven by deep curiosity to craft high-throughput APIs, clean microservices, and automated data pipelines.
       </text>
-
-      <!-- Status Badges: Palembang, Followers, Views -->
-      <g transform="translate(56, 376)">
-        <rect width="145" height="28" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/>
-        <circle cx="16" cy="14" r="3.5" fill="#16a34a">
-          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
-        </circle>
-        <text x="29" y="18.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#15803d">
-          Palembang, ID
-        </text>
-      </g>
-
-      <g transform="translate(213, 376)">
-        <rect width="150" height="28" rx="8" fill="#faf5ff" stroke="#7c3aed" stroke-width="1.2"/>
-        <path d="M 14 18 C 14 15.5 16 14 18.5 14 C 21 14 23 15.5 23 18 Z M 18.5 9 C 19.6 9 20.5 9.9 20.5 11 C 20.5 12.1 19.6 13 18.5 13 C 17.4 13 16.5 12.1 16.5 11 C 16.5 9.9 17.4 9 18.5 9 Z" fill="#7c3aed"/>
-        <text x="31" y="18.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#6d28d9">
-          GitHub Followers
-        </text>
-      </g>
-
-      <g transform="translate(375, 376)">
-        <rect width="145" height="28" rx="8" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.2"/>
-        <path d="M 8 14 C 11 9.5 15.5 8 19 8 C 22.5 8 27 9.5 30 14 C 27 18.5 22.5 20 19 20 C 15.5 20 11 18.5 8 14 Z M 19 11 C 17.3 11 16 12.3 16 14 C 16 15.7 17.3 17 19 17 C 20.7 17 22 15.7 22 14 C 22 12.3 20.7 11 19 11 Z" fill="#0284c7" transform="scale(0.8) translate(0, 3.5)"/>
-        <text x="30" y="18.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#0369a1">
-          Profile Views
-        </text>
-      </g>
+      <text x="56" y="374" font-family="'Segoe UI', -apple-system, sans-serif" font-size="16.2" font-weight="400" fill="#334155" letter-spacing="0.48">
+        Dedicated to transforming complex engineering challenges into elegant, reliable, and high-impact software.
+      </text>
+      <text x="56" y="398" font-family="'Segoe UI', -apple-system, sans-serif" font-size="16.2" font-weight="400" fill="#334155" letter-spacing="0.65">
+        Always learning, refining software craftsmanship, and actively contributing to open-source communities.
+      </text>
 
       <!-- Divider to Currently Exploring -->
       <line x1="50" y1="422" x2="950" y2="416" stroke="#e2e8f0" stroke-width="1.2" stroke-dasharray="4 4"/>
