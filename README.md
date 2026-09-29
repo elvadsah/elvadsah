@@ -46,21 +46,7 @@ I'm continuously learning, experimenting with new technologies, and contributing
 
 <div align="center">
 
-### Languages
-
-<img src="./languages.svg" alt="Programming Languages" />
-
-### Frameworks & Libraries
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,laravel,django" alt="Frameworks and Libraries" />
-
-### Infrastructure & Tools
-
-<img src="https://skillicons.dev/icons?i=linux,docker,git,github,nginx,cloudflare" alt="Infrastructure and Tools" />
-
-### Databases
-
-<img src="https://skillicons.dev/icons?i=postgresql,mysql,redis,mongodb" alt="Databases" />
+<img src="./skills.svg" alt="Technologies and Tools" width="100%" />
 
 </div>
 
