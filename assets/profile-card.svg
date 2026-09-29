@@ -96,14 +96,35 @@
       Turning ideas into scalable, maintainable, and high-impact real-world solutions.
     </text>
 
-    <!-- Location Pill -->
-    <rect x="32" y="161" width="180" height="28" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
-    <circle cx="47" cy="175" r="4" fill="#10b981">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="60" y="179.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">
-      Palembang, Indonesia
-    </text>
+    <!-- Status & Social Badges Row -->
+    <!-- 1. Location Pill -->
+    <g transform="translate(32, 161)">
+      <rect width="140" height="28" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1" stroke-opacity="0.5"/>
+      <circle cx="16" cy="14" r="3.5" fill="#10b981">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="29" y="18.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#6ee7b7">
+        Palembang, ID
+      </text>
+    </g>
+
+    <!-- 2. Followers Pill -->
+    <g transform="translate(182, 161)">
+      <rect width="148" height="28" rx="8" fill="#1e293b" stroke="#8A2BE2" stroke-width="1" stroke-opacity="0.6"/>
+      <path d="M 14 18 C 14 15.5 16 14 18.5 14 C 21 14 23 15.5 23 18 Z M 18.5 9 C 19.6 9 20.5 9.9 20.5 11 C 20.5 12.1 19.6 13 18.5 13 C 17.4 13 16.5 12.1 16.5 11 C 16.5 9.9 17.4 9 18.5 9 Z" fill="#c084fc"/>
+      <text x="31" y="18.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#e9d5ff">
+        GitHub Followers
+      </text>
+    </g>
+
+    <!-- 3. Profile Views Pill -->
+    <g transform="translate(340, 161)">
+      <rect width="140" height="28" rx="8" fill="#1e293b" stroke="#3b8cff" stroke-width="1" stroke-opacity="0.5"/>
+      <path d="M 8 14 C 11 9.5 15.5 8 19 8 C 22.5 8 27 9.5 30 14 C 27 18.5 22.5 20 19 20 C 15.5 20 11 18.5 8 14 Z M 19 11 C 17.3 11 16 12.3 16 14 C 16 15.7 17.3 17 19 17 C 20.7 17 22 15.7 22 14 C 22 12.3 20.7 11 19 11 Z" fill="#38bdf8" transform="scale(0.8) translate(0, 3.5)"/>
+      <text x="30" y="18.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#93c5fd">
+        Profile Views
+      </text>
+    </g>
 
     <!-- Right: Focus Badges -->
     <text x="530" y="72" font-family="'SFMono-Regular', Consolas, monospace" font-size="11.5" font-weight="700" fill="#38bdf8" letter-spacing="1">
