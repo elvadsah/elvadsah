@@ -48,7 +48,7 @@ I'm continuously learning, experimenting with new technologies, and contributing
 
 ### Languages
 
-<img src="https://skillicons.dev/icons?i=js,ts,python,php,html,css" alt="Programming Languages" />
+<img src="./languages.svg" alt="Programming Languages" />
 
 ### Frameworks & Libraries
 
@@ -77,29 +77,6 @@ I'm continuously learning, experimenting with new technologies, and contributing
 <br /><br />
 
 <img src="./github-metrics.svg" width="75%" alt="GitHub Metrics" />
-
-</div>
-
----
-
-## 🐍 Contribution Activity
-
-<div align="center">
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/elvadsah/elvadsah/output/github-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/elvadsah/elvadsah/output/github-snake.svg"
-  />
-  <img
-    src="https://raw.githubusercontent.com/elvadsah/elvadsah/output/github-snake-dark.svg"
-    alt="GitHub Contribution Snake Animation"
-  />
-</picture>
 
 </div>
 
