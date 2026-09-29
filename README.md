@@ -4,7 +4,7 @@
 
 <br />
 
-# Hi, I'm Elvadsah 👋
+# Hi, I'm elvadsah 👋
 
 ### Software Developer · Web Development · Cloud · AI/ML
 
