@@ -38,45 +38,45 @@
         values="-560 0; 560 0; -560 0" keyTimes="0; 0.6; 1" dur="6s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- Solar System Gradients & Glows -->
-    <radialGradient id="solarNebulaGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.35"/>
-      <stop offset="35%" stop-color="#38bdf8" stop-opacity="0.18"/>
-      <stop offset="75%" stop-color="#818cf8" stop-opacity="0.06"/>
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
-    </radialGradient>
-
-    <radialGradient id="sunCorona" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.9"/>
-      <stop offset="40%" stop-color="#f59e0b" stop-opacity="0.5"/>
-      <stop offset="75%" stop-color="#ea580c" stop-opacity="0.15"/>
+    <!-- Radiant Sun Gradients -->
+    <radialGradient id="sunAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#f59e0b" stop-opacity="0.3"/>
+      <stop offset="75%" stop-color="#ea580c" stop-opacity="0.1"/>
       <stop offset="100%" stop-color="#ea580c" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="sunBody" cx="35%" cy="35%" r="65%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="25%" stop-color="#fef08a"/>
-      <stop offset="65%" stop-color="#f59e0b"/>
-      <stop offset="100%" stop-color="#d97706"/>
+    <radialGradient id="sunCorona" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#fbbf24" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#f59e0b" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ea580c" stop-opacity="0"/>
     </radialGradient>
 
-    <linearGradient id="earthGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="40%" stop-color="#2563eb"/>
-      <stop offset="70%" stop-color="#10b981"/>
-      <stop offset="100%" stop-color="#1d4ed8"/>
+    <radialGradient id="sunBody" cx="36%" cy="36%" r="64%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="20%" stop-color="#fffbeb"/>
+      <stop offset="45%" stop-color="#fde047"/>
+      <stop offset="75%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </radialGradient>
+
+    <radialGradient id="sunCoreShine" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#fef08a" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="sunRayGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ea580c"/>
     </linearGradient>
 
-    <linearGradient id="marsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#fca5a5"/>
-      <stop offset="50%" stop-color="#ef4444"/>
-      <stop offset="100%" stop-color="#991b1b"/>
-    </linearGradient>
-
-    <linearGradient id="saturnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="sunRayGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#fef08a"/>
       <stop offset="50%" stop-color="#fde047"/>
-      <stop offset="100%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
     </linearGradient>
 
     <clipPath id="canvasClip">
@@ -138,10 +138,10 @@
     <rect width="1000" height="1440" fill="url(#dotPattern)" />
     <rect x="1" y="1" width="998" height="1438" rx="20" stroke="url(#movingBorder)" stroke-width="2.5" fill="none" />
 
-    <!-- SECTION 1: HERO SOLAR SYSTEM HEADER (Light) -->
-    <!-- Ambient Solar System Nebula Glow centered on (850, 110) -->
-    <circle cx="850" cy="110" r="125" fill="url(#solarNebulaGlow)">
-      <animate attributeName="opacity" values="0.6;0.95;0.6" dur="4s" repeatCount="indefinite"/>
+    <!-- SECTION 1: HERO SUN HEADER (Light) -->
+    <!-- Ambient Solar Aura Glow centered on (850, 110) -->
+    <circle cx="850" cy="110" r="130" fill="url(#sunAura)">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
     </circle>
 
     <!-- Name & Title -->
@@ -168,103 +168,63 @@
       </text>
     </g>
 
-    <!-- Solar System Animation (Right Side) -->
+    <!-- Animated Sun Graphic (Right Side) -->
     <g transform="translate(50, -20)">
-      <!-- Cosmic Star Twinkles -->
-      <circle cx="715" cy="45" r="1.2" fill="#38bdf8" opacity="0.6">
-        <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.2s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="915" cy="35" r="1.1" fill="#fde047" opacity="0.5">
-        <animate attributeName="opacity" values="0.8;0.2;0.8" dur="4s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="700" cy="180" r="1" fill="#818cf8" opacity="0.5">
-        <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.7s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="920" cy="205" r="1.3" fill="#67e8f9" opacity="0.6">
-        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.6s" repeatCount="indefinite"/>
-      </circle>
+      <g transform="translate(800, 130)">
+        <!-- Cosmic Sun Embers / Twinkles -->
+        <circle cx="-70" cy="-45" r="1.5" fill="#fde047" opacity="0.6">
+          <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.4s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="72" cy="-48" r="1.3" fill="#f97316" opacity="0.5">
+          <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.1s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="-68" cy="52" r="1.4" fill="#fbbf24" opacity="0.6">
+          <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.8s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="76" cy="46" r="1.5" fill="#f59e0b" opacity="0.5">
+          <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.2s" repeatCount="indefinite"/>
+        </circle>
 
-      <!-- Orbit Tracks -->
-      <!-- Mercury Orbit (r=26) -->
-      <circle cx="800" cy="130" r="26" fill="none" stroke="#94a3b8" stroke-width="0.9" stroke-dasharray="2 3" opacity="0.45"/>
-      <!-- Venus Orbit (r=44) -->
-      <circle cx="800" cy="130" r="44" fill="none" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 4" opacity="0.55"/>
-      <!-- Earth Orbit (r=64) -->
-      <circle cx="800" cy="130" r="64" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.7"/>
-      <!-- Mars Orbit (r=80) -->
-      <circle cx="800" cy="130" r="80" fill="none" stroke="#fca5a5" stroke-width="1" stroke-dasharray="3 5" opacity="0.5"/>
-      <!-- Saturn Orbit (r=96) -->
-      <circle cx="800" cy="130" r="96" fill="none" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="2 6" opacity="0.45"/>
+        <!-- Outer Pulsing Solar Flare Corona -->
+        <circle cx="0" cy="0" r="76" fill="url(#sunCorona)">
+          <animate attributeName="r" values="72;84;72" dur="3.5s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0.5;0.85;0.5" dur="3.5s" repeatCount="indefinite"/>
+        </circle>
 
-      <!-- Orbiting Celestial Bodies -->
-
-      <!-- 1. Mercury (Utarid) -->
-      <g>
-        <circle cx="800" cy="104" r="2.5" fill="#94a3b8"/>
-        <animateTransform attributeName="transform" type="rotate"
-                          from="0 800 130" to="360 800 130" dur="6.5s" repeatCount="indefinite"/>
-      </g>
-
-      <!-- 2. Venus (Kejora) -->
-      <g>
-        <circle cx="844" cy="130" r="3.5" fill="#f59e0b"/>
-        <animateTransform attributeName="transform" type="rotate"
-                          from="75 800 130" to="435 800 130" dur="11s" repeatCount="indefinite"/>
-      </g>
-
-      <!-- 3. Earth & Orbiting Moon (Bumi & Bulan) -->
-      <g>
-        <g transform="translate(800, 66)">
-          <!-- Earth atmosphere glow -->
-          <circle cx="0" cy="0" r="6.5" fill="#38bdf8" opacity="0.35"/>
-          <!-- Earth Globe -->
-          <circle cx="0" cy="0" r="5.2" fill="url(#earthGrad)"/>
-          <!-- Moon Orbit Track -->
-          <circle cx="0" cy="0" r="10" fill="none" stroke="#94a3b8" stroke-width="0.7" stroke-dasharray="1.5 2" opacity="0.55"/>
-          <!-- Moon Orbiting Earth -->
-          <g>
-            <circle cx="10" cy="0" r="1.6" fill="#cbd5e1" stroke="#64748b" stroke-width="0.4"/>
-            <animateTransform attributeName="transform" type="rotate"
-                              from="0 0 0" to="360 0 0" dur="2.6s" repeatCount="indefinite"/>
-          </g>
+        <!-- Primary Solar Rays (Clockwise Slow Rotation) -->
+        <g>
+          <animateTransform attributeName="transform" type="rotate"
+                            from="0" to="360" dur="26s" repeatCount="indefinite"/>
+          <path d="M 34.7 -4.2 L 66.0 0.0 L 34.7 4.2 Z M 32.2 13.7 L 57.2 33.0 L 28.0 21.0 Z M 21.0 28.0 L 33.0 57.2 L 13.7 32.2 Z M 4.2 34.7 L 0.0 66.0 L -4.2 34.7 Z M -13.7 32.2 L -33.0 57.2 L -21.0 28.0 Z M -28.0 21.0 L -57.2 33.0 L -32.2 13.7 Z M -34.7 4.2 L -66.0 0.0 L -34.7 -4.2 Z M -32.2 -13.7 L -57.2 -33.0 L -28.0 -21.0 Z M -21.0 -28.0 L -33.0 -57.2 L -13.7 -32.2 Z M -4.2 -34.7 L -0.0 -66.0 L 4.2 -34.7 Z M 13.7 -32.2 L 33.0 -57.2 L 21.0 -28.0 Z M 28.0 -21.0 L 57.2 -33.0 L 32.2 -13.7 Z"
+                fill="url(#sunRayGrad1)"/>
         </g>
-        <!-- Earth Sub-system Orbiting Sun -->
-        <animateTransform attributeName="transform" type="rotate"
-                          from="190 800 130" to="550 800 130" dur="18s" repeatCount="indefinite"/>
-      </g>
 
-      <!-- 4. Mars (Planet Merah) -->
-      <g>
-        <circle cx="800" cy="210" r="3.8" fill="url(#marsGrad)"/>
-        <circle cx="800" cy="209" r="1.1" fill="#fee2e2" opacity="0.75"/>
-        <animateTransform attributeName="transform" type="rotate"
-                          from="290 800 130" to="650 800 130" dur="27s" repeatCount="indefinite"/>
-      </g>
-
-      <!-- 5. Saturn with Planetary Rings (Saturnus) -->
-      <g>
-        <g transform="translate(896, 130)">
-          <!-- Saturn Ring Back -->
-          <ellipse cx="0" cy="0" rx="9.5" ry="3.5" fill="none" stroke="#d97706" stroke-width="1.8" opacity="0.7" transform="rotate(-25)"/>
-          <!-- Saturn Planet Body -->
-          <circle cx="0" cy="0" r="4.6" fill="url(#saturnGrad)"/>
-          <!-- Saturn Ring Front Highlight -->
-          <ellipse cx="0" cy="0" rx="8" ry="2.8" fill="none" stroke="#fef08a" stroke-width="0.9" opacity="0.9" transform="rotate(-25)"/>
+        <!-- Secondary Solar Rays (Counter-Clockwise Rotation) -->
+        <g>
+          <animateTransform attributeName="transform" type="rotate"
+                            from="360" to="0" dur="18s" repeatCount="indefinite"/>
+          <path d="M 33.6 5.5 L 52.2 14.0 L 31.8 12.0 Z M 26.3 21.5 L 38.2 38.2 L 21.5 26.3 Z M 12.0 31.8 L 14.0 52.2 L 5.5 33.6 Z M -5.5 33.6 L -14.0 52.2 L -12.0 31.8 Z M -21.5 26.3 L -38.2 38.2 L -26.3 21.5 Z M -31.8 12.0 L -52.2 14.0 L -33.6 5.5 Z M -33.6 -5.5 L -52.2 -14.0 L -31.8 -12.0 Z M -26.3 -21.5 L -38.2 -38.2 L -21.5 -26.3 Z M -12.0 -31.8 L -14.0 -52.2 L -5.5 -33.6 Z M 5.5 -33.6 L 14.0 -52.2 L 12.0 -31.8 Z M 21.5 -26.3 L 38.2 -38.2 L 26.3 -21.5 Z M 31.8 -12.0 L 52.2 -14.0 L 33.6 -5.5 Z"
+                fill="url(#sunRayGrad2)" opacity="0.85"/>
         </g>
-        <!-- Saturn Orbiting Sun -->
-        <animateTransform attributeName="transform" type="rotate"
-                          from="335 800 130" to="695 800 130" dur="40s" repeatCount="indefinite"/>
-      </g>
 
-      <!-- Central Sun (Matahari) -->
-      <!-- Corona Glow Pulse -->
-      <circle cx="800" cy="130" r="21" fill="url(#sunCorona)">
-        <animate attributeName="r" values="19;24;19" dur="3.2s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.75;1;0.75" dur="3.2s" repeatCount="indefinite"/>
-      </circle>
-      <!-- Sun Core -->
-      <circle cx="800" cy="130" r="10.5" fill="url(#sunBody)"/>
-      <circle cx="798" cy="128" r="3" fill="#ffffff" opacity="0.5"/>
+        <!-- Solar Prominence Ring (Coronal Loops) -->
+        <circle cx="0" cy="0" r="42" fill="none" stroke="#f59e0b" stroke-width="2.5"
+                stroke-dasharray="10 14" opacity="0.8">
+          <animateTransform attributeName="transform" type="rotate"
+                            from="0" to="360" dur="12s" repeatCount="indefinite"/>
+        </circle>
+
+        <!-- Sun Core Body (Breathing Shimmer) -->
+        <circle cx="0" cy="0" r="36" fill="url(#sunBody)" filter="drop-shadow(0 0 12px rgba(245, 158, 11, 0.7))">
+          <animate attributeName="r" values="35;38;35" dur="3s" repeatCount="indefinite"/>
+        </circle>
+
+        <!-- Bright Core Glare / Specular -->
+        <circle cx="-6" cy="-6" r="18" fill="url(#sunCoreShine)" opacity="0.85">
+          <animate attributeName="r" values="16;20;16" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="-10" cy="-10" r="4" fill="#ffffff" opacity="0.6"/>
+      </g>
     </g>
 
     <!-- SECTION 2: INTEGRATED PROFILE.SH TERMINAL -->
