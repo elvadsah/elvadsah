@@ -103,9 +103,7 @@
     <rect width="1000" height="1440" fill="url(#dotPattern)" />
     <rect x="1" y="1" width="998" height="1438" rx="20" stroke="url(#movingBorder)" stroke-width="2.5" fill="none" />
 
-    <!-- ========================================== -->
-    <!-- SECTION 1: HERO ORBITAL HEADER (Light)     -->
-    <!-- ========================================== -->
+    <!-- SECTION 1: HERO ORBITAL HEADER (Light) -->
     <circle cx="800" cy="110" r="120" fill="url(#orbitGlow)">
       <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4s" repeatCount="indefinite"/>
     </circle>
@@ -170,11 +168,8 @@
       <circle cx="800" cy="130" r="4" fill="#ffffff"/>
     </g>
 
-    <!-- ========================================== -->
-    <!-- SECTION 2: INTEGRATED PROFILE.SH TERMINAL  -->
-    <!-- ========================================== -->
+    <!-- SECTION 2: INTEGRATED PROFILE.SH TERMINAL -->
     <g clip-path="url(#termClip)">
-      <!-- Terminal Window Box -->
       <rect x="30" y="215" width="940" height="1195" rx="16" fill="url(#termBgGrad)" stroke="#cbd5e1" stroke-width="1.5"/>
 
       <!-- Window Title Bar -->
@@ -201,7 +196,6 @@
       </text>
 
       <!-- Status Badges: Palembang, Followers, Views -->
-      <!-- Location Pill -->
       <g transform="translate(56, 356)">
         <rect width="145" height="28" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/>
         <circle cx="16" cy="14" r="3.5" fill="#16a34a">
@@ -212,7 +206,6 @@
         </text>
       </g>
 
-      <!-- GitHub Followers Pill -->
       <g transform="translate(213, 356)">
         <rect width="150" height="28" rx="8" fill="#faf5ff" stroke="#7c3aed" stroke-width="1.2"/>
         <path d="M 14 18 C 14 15.5 16 14 18.5 14 C 21 14 23 15.5 23 18 Z M 18.5 9 C 19.6 9 20.5 9.9 20.5 11 C 20.5 12.1 19.6 13 18.5 13 C 17.4 13 16.5 12.1 16.5 11 C 16.5 9.9 17.4 9 18.5 9 Z" fill="#7c3aed"/>
@@ -221,7 +214,6 @@
         </text>
       </g>
 
-      <!-- Profile Views Pill -->
       <g transform="translate(375, 356)">
         <rect width="145" height="28" rx="8" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.2"/>
         <path d="M 8 14 C 11 9.5 15.5 8 19 8 C 22.5 8 27 9.5 30 14 C 27 18.5 22.5 20 19 20 C 15.5 20 11 18.5 8 14 Z M 19 11 C 17.3 11 16 12.3 16 14 C 16 15.7 17.3 17 19 17 C 20.7 17 22 15.7 22 14 C 22 12.3 20.7 11 19 11 Z" fill="#0284c7" transform="scale(0.8) translate(0, 3.5)"/>
@@ -233,9 +225,7 @@
       <!-- Divider to Currently Exploring -->
       <line x1="50" y1="406" x2="950" y2="406" stroke="#e2e8f0" stroke-width="1.2" stroke-dasharray="4 4"/>
 
-      <!-- ============================================================== -->
-      <!-- 2.2 CURRENTLY EXPLORING (Positioned ABOVE Technologies)         -->
-      <!-- ============================================================== -->
+      <!-- 2.2 CURRENTLY EXPLORING (Positioned ABOVE Technologies) -->
       <text x="56" y="434" font-family="'SFMono-Regular', Consolas, monospace" font-size="12" font-weight="700" fill="#0284c7" letter-spacing="1.5">
         🚀 CURRENTLY EXPLORING
       </text>
@@ -268,9 +258,7 @@
       <!-- Generous Spacing Divider (Exploring to Technologies) -->
       <line x1="50" y1="508" x2="950" y2="508" stroke="#e2e8f0" stroke-width="1.2" stroke-dasharray="4 4"/>
 
-      <!-- ============================================================== -->
-      <!-- 2.3 TECHNOLOGIES & TOOLS (30 ICONS IN 5 ROWS x 6 COLUMNS)      -->
-      <!-- ============================================================== -->
+      <!-- 2.3 TECHNOLOGIES & TOOLS (30 ICONS IN 5 ROWS x 6 COLUMNS) -->
       <text x="56" y="538" font-family="'SFMono-Regular', Consolas, monospace" font-size="12" font-weight="700" fill="#6366f1" letter-spacing="1.5">
         🛠️ TECHNOLOGIES &amp; TOOLS
       </text>
@@ -338,8 +326,8 @@
       <g transform="translate(98.0, 662.0)">
         <rect width="64" height="64" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.3" />
         <g class="anim-float">
-          <g transform="translate(11.00, 11.00) scale(0.3281)">
-            <path fill="url(#a)" d="M66.958.825a6.07 6.07 0 0 0-6.035 0L11.103 29.76c-1.895 1.072-2.96 3.095-2.96 5.24v57.988c0 2.143 1.183 4.167 2.958 5.24l49.82 28.934a6.07 6.07 0 0 0 6.036 0l49.82-28.935c1.894-1.072 2.958-3.096 2.958-5.24V35c0-2.144-1.183-4.167-2.958-5.24z"/><path fill="url(#b)" d="M116.897 29.76 66.841.825A8.161 8.161 0 0 0 65.302.23L9.21 96.798a6.251 6.251 0 0 0 1.657 1.43l50.057 28.934c1.42.833 3.076 1.072 4.615.595l52.66-96.925a3.702 3.702 0 0 0-1.302-1.072z"/><path fill="url(#c)" d="M116.898 98.225c1.42-.833 2.485-2.262 2.958-3.81L65.066.108c-1.42-.238-2.959-.119-4.26.715L11.104 29.639l53.606 98.355c.71-.12 1.54-.358 2.25-.715z"/><defs><linearGradient id="a" x1="34.513" x2="27.157" y1="15.535" y2="30.448" gradientTransform="translate(-129.242 -73.715) scale(6.18523)" gradientUnits="userSpaceOnUse"><stop stop-color="#3F873F"/><stop offset=".33" stop-color="#3F8B3D"/><stop offset=".637" stop-color="#3E9638"/><stop offset=".934" stop-color="#3DA92E"/><stop offset="1" stop-color="#3DAE2B"/></linearGradient><linearGradient id="b" x1="30.009" x2="50.533" y1="23.359" y2="8.288" gradientTransform="translate(-129.242 -73.715) scale(6.18523)" gradientUnits="userSpaceOnUse"><stop offset=".138" stop-color="#3F873F"/><stop offset=".402" stop-color="#52A044"/><stop offset=".713" stop-color="#64B749"/><stop offset=".908" stop-color="#6ABF4B"/></linearGradient><linearGradient id="c" x1="21.917" x2="40.555" y1="22.261" y2="22.261" gradientTransform="translate(-129.242 -73.715) scale(6.18523)" gradientUnits="userSpaceOnUse"><stop offset=".092" stop-color="#6ABF4B"/><stop offset=".287" stop-color="#64B749"/><stop offset=".598" stop-color="#52A044"/><stop offset=".862" stop-color="#3F873F"/></linearGradient></defs>
+          <g transform="translate(11.00, 11.00) scale(1.7500)">
+            <path fill="#539e43" d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z"/>
           </g>
         </g>
       </g>
@@ -378,20 +366,11 @@
       <g transform="translate(690.0, 662.0)">
         <rect width="64" height="64" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.3" />
         <g class="anim-pulse">
-          <g transform="translate(11.00, 11.00) scale(1.3125)">
-            <circle cx="16" cy="16" r="14" fill="#0284c7" fill-opacity="0.12"/>
-<circle cx="16" cy="16" r="11" stroke="#0284c7" stroke-width="1.8" fill="none"/>
-<rect x="15" y="2" width="2" height="3.5" rx="1" fill="#0284c7"/>
-<rect x="15" y="26.5" width="2" height="3.5" rx="1" fill="#0284c7"/>
-<rect x="2" y="15" width="3.5" height="2" rx="1" fill="#0284c7"/>
-<rect x="26.5" y="15" width="3.5" height="2" rx="1" fill="#0284c7"/>
-<rect x="5.5" y="5.5" width="2.2" height="3" rx="1" fill="#0284c7" transform="rotate(-45 6.6 7)"/>
-<rect x="24.3" y="5.5" width="2.2" height="3" rx="1" fill="#0284c7" transform="rotate(45 25.4 7)"/>
-<rect x="5.5" y="23.5" width="2.2" height="3" rx="1" fill="#0284c7" transform="rotate(45 6.6 25)"/>
-<rect x="24.3" y="23.5" width="2.2" height="3" rx="1" fill="#0284c7" transform="rotate(-45 25.4 25)"/>
-<text x="16" y="19" font-family="'Segoe UI', -apple-system, sans-serif" font-size="7.5" font-weight="800" fill="#0369a1" text-anchor="middle" letter-spacing="0.5">REST</text>
-<path d="M 8 13 C 9.5 13 9.5 15 9.5 16 C 9.5 17 9.5 19 8 19" stroke="#0284c7" stroke-width="1.2" fill="none" stroke-linecap="round"/>
-<path d="M 24 13 C 22.5 13 22.5 15 22.5 16 C 22.5 17 22.5 19 24 19" stroke="#0284c7" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+          <g transform="translate(11.00, 11.00) scale(1.7500)">
+            <rect x="1.5" y="3" width="21" height="18" rx="4" fill="#0284c7" fill-opacity="0.12" stroke="#0284c7" stroke-width="1.6"/>
+<path fill="#0284c7" d="M13.26 10.5h2v1h-2z"/>
+<path fill="#0284c7" d="M8.4 15L8 13.77H6.06L5.62 15H4l2.2-6h1.62L10 15Zm8.36-3.5a1.47 1.47 0 0 1-1.5 1.5h-2v2h-1.5V9h3.5a1.47 1.47 0 0 1 1.5 1.5ZM20 15h-1.5V9H20Z"/>
+<path fill="#0284c7" d="M6.43 12.77h1.16l-.58-1.59z"/>
           </g>
         </g>
       </g>
@@ -613,10 +592,9 @@
         🤝 LET'S CONNECT
       </text>
 
-      <!-- 1. LinkedIn Card (Row 1, Col 1) -->
+      <!-- 1. LinkedIn Card -->
       <g transform="translate(56, 1120)">
         <rect width="432" height="68" rx="14" fill="#f0f9ff" stroke="#0076b2" stroke-width="1.4" stroke-opacity="0.8"/>
-        <!-- Animated Icon Container -->
         <g transform="translate(12, 9)">
           <rect width="50" height="50" rx="12" fill="#0076b2" />
           <g class="anim-float">
@@ -625,15 +603,13 @@
             </g>
           </g>
         </g>
-        <!-- Text -->
         <text x="74" y="30" font-family="'Segoe UI', -apple-system, sans-serif" font-size="14" font-weight="700" fill="#0076b2">LinkedIn</text>
         <text x="74" y="49" font-family="'SFMono-Regular', Consolas, monospace" font-size="12" font-weight="500" fill="#334155">linkedin.com/in/adityasahrin</text>
       </g>
 
-      <!-- 2. Gmail / Email Card (Row 1, Col 2) -->
+      <!-- 2. Gmail / Email Card -->
       <g transform="translate(512, 1120)">
         <rect width="432" height="68" rx="14" fill="#fef2f2" stroke="#ea4335" stroke-width="1.4" stroke-opacity="0.8"/>
-        <!-- Animated Icon Container -->
         <g transform="translate(12, 9)">
           <rect width="50" height="50" rx="12" fill="#ffffff" stroke="#fecaca" stroke-width="1.2"/>
           <g class="anim-jump">
@@ -646,15 +622,13 @@
             </g>
           </g>
         </g>
-        <!-- Text -->
         <text x="74" y="30" font-family="'Segoe UI', -apple-system, sans-serif" font-size="14" font-weight="700" fill="#ea4335">Gmail / Email</text>
         <text x="74" y="49" font-family="'SFMono-Regular', Consolas, monospace" font-size="12" font-weight="500" fill="#334155">aditya.sahrin@uigm.ac.id</text>
       </g>
 
-      <!-- 3. Instagram Card (Row 2, Col 1) -->
+      <!-- 3. Instagram Card -->
       <g transform="translate(56, 1204)">
         <rect width="432" height="68" rx="14" fill="#fdf2f8" stroke="#d6249f" stroke-width="1.4" stroke-opacity="0.8"/>
-        <!-- Animated Icon Container -->
         <g transform="translate(12, 9)">
           <rect width="50" height="50" rx="12" fill="#ffffff" stroke="#fbcfe8" stroke-width="1.2"/>
           <g class="anim-pulse">
@@ -673,15 +647,13 @@
             </g>
           </g>
         </g>
-        <!-- Text -->
         <text x="74" y="30" font-family="'Segoe UI', -apple-system, sans-serif" font-size="14" font-weight="700" fill="#d6249f">Instagram</text>
         <text x="74" y="49" font-family="'SFMono-Regular', Consolas, monospace" font-size="12" font-weight="500" fill="#334155">@aditya.sahrin</text>
       </g>
 
-      <!-- 4. Portfolio Card (Row 2, Col 2) -->
+      <!-- 4. Portfolio Card -->
       <g transform="translate(512, 1204)">
         <rect width="432" height="68" rx="14" fill="#faf5ff" stroke="#7c3aed" stroke-width="1.4" stroke-opacity="0.8"/>
-        <!-- Animated Icon Container -->
         <g transform="translate(12, 9)">
           <rect width="50" height="50" rx="12" fill="#ffffff" stroke="#e9d5ff" stroke-width="1.2"/>
           <g class="anim-wave">
@@ -694,7 +666,6 @@
             </g>
           </g>
         </g>
-        <!-- Text -->
         <text x="74" y="30" font-family="'Segoe UI', -apple-system, sans-serif" font-size="14" font-weight="700" fill="#7c3aed">Website / Portfolio</text>
         <text x="74" y="49" font-family="'SFMono-Regular', Consolas, monospace" font-size="12" font-weight="500" fill="#334155">asciii.my.id</text>
       </g>
@@ -702,22 +673,20 @@
       <!-- Generous Spacing Divider (Connect to Quote) -->
       <line x1="50" y1="1296" x2="950" y2="1296" stroke="#e2e8f0" stroke-width="1.2" stroke-dasharray="4 4"/>
 
-      <!-- ============================================================== -->
-      <!-- 2.5 PHILOSOPHY QUOTE & FOOTER (Light Theme)                    -->
-      <!-- ============================================================== -->
+      <!-- 2.5 PHILOSOPHY QUOTE & FOOTER -->
       <g transform="translate(490, 1316)">
         <path d="M 0 8 Q -3 8 -5 10 Q -8 13 -8 16 Q -8 19 -5 19 Q -2 19 -2 16 Q -2 13 1 10 L 1 8 Z M 13 8 Q 10 8 7 10 Q 5 13 5 16 Q 5 19 8 19 Q 11 19 11 16 Q 11 13 14 10 L 14 8 Z" fill="#7c3aed" opacity="0.9"/>
       </g>
-      <text x="500.0" y="1350" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13.5" font-style="italic" fill="#6d28d9" text-anchor="middle" letter-spacing="0.5">
+      <text x="500" y="1350" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13.5" font-style="italic" fill="#6d28d9" text-anchor="middle" letter-spacing="0.5">
         ὅτι ἃ μὴ οἶδα οὐδὲ οἴομαι εἰδέναι.
       </text>
-      <text x="500.0" y="1374" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle">
+      <text x="500" y="1374" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle">
         “What I do not know I do not think I know.”
       </text>
-      <text x="500.0" y="1396" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#64748b" text-anchor="middle" letter-spacing="1">
+      <text x="500" y="1396" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#64748b" text-anchor="middle" letter-spacing="1">
         — SOCRATES, PLATO, APOLOGY 21D —
       </text>
-      <text x="500.0" y="1422" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11.5" font-weight="500" fill="#64748b" text-anchor="middle">
+      <text x="500" y="1422" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11.5" font-weight="500" fill="#64748b" text-anchor="middle">
         ⭐ Thanks for visiting my profile!
       </text>
     </g>
