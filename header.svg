@@ -184,19 +184,19 @@
         elvadsah ~ /profile.sh
       </text>
 
-      <!-- 2.1 ABOUT ME BLOCK -->
-      <text x="56" y="288" font-family="'Segoe UI', -apple-system, sans-serif" font-size="17" font-weight="700" fill="#0f172a">
+      <!-- 2.1 ABOUT ME BLOCK (Enlarged & Flush Justified: x=56 to x=918) -->
+      <text x="56" y="295" font-family="'Segoe UI', -apple-system, sans-serif" font-size="28.2" font-weight="800" fill="#0f172a">
         Designing, Building &amp; Improving Scalable Software Systems
       </text>
-      <text x="56" y="314" font-family="'Segoe UI', -apple-system, sans-serif" font-size="14" font-weight="400" fill="#334155">
+      <text x="56" y="326" font-family="'Segoe UI', -apple-system, sans-serif" font-size="16.2" font-weight="400" fill="#334155" letter-spacing="0.72">
         Passionate about backend engineering, cloud architecture, AI/ML pipelines, and resilient system design.
       </text>
-      <text x="56" y="336" font-family="'Segoe UI', -apple-system, sans-serif" font-size="14" font-weight="400" fill="#334155">
+      <text x="56" y="350" font-family="'Segoe UI', -apple-system, sans-serif" font-size="16.2" font-weight="400" fill="#334155" letter-spacing="0.18">
         Dedicated to transforming complex technology into reliable, maintainable, and high-impact software solutions.
       </text>
 
       <!-- Status Badges: Palembang, Followers, Views -->
-      <g transform="translate(56, 356)">
+      <g transform="translate(56, 376)">
         <rect width="145" height="28" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/>
         <circle cx="16" cy="14" r="3.5" fill="#16a34a">
           <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
@@ -206,7 +206,7 @@
         </text>
       </g>
 
-      <g transform="translate(213, 356)">
+      <g transform="translate(213, 376)">
         <rect width="150" height="28" rx="8" fill="#faf5ff" stroke="#7c3aed" stroke-width="1.2"/>
         <path d="M 14 18 C 14 15.5 16 14 18.5 14 C 21 14 23 15.5 23 18 Z M 18.5 9 C 19.6 9 20.5 9.9 20.5 11 C 20.5 12.1 19.6 13 18.5 13 C 17.4 13 16.5 12.1 16.5 11 C 16.5 9.9 17.4 9 18.5 9 Z" fill="#7c3aed"/>
         <text x="31" y="18.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#6d28d9">
@@ -214,7 +214,7 @@
         </text>
       </g>
 
-      <g transform="translate(375, 356)">
+      <g transform="translate(375, 376)">
         <rect width="145" height="28" rx="8" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.2"/>
         <path d="M 8 14 C 11 9.5 15.5 8 19 8 C 22.5 8 27 9.5 30 14 C 27 18.5 22.5 20 19 20 C 15.5 20 11 18.5 8 14 Z M 19 11 C 17.3 11 16 12.3 16 14 C 16 15.7 17.3 17 19 17 C 20.7 17 22 15.7 22 14 C 22 12.3 20.7 11 19 11 Z" fill="#0284c7" transform="scale(0.8) translate(0, 3.5)"/>
         <text x="30" y="18.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#0369a1">
@@ -223,34 +223,34 @@
       </g>
 
       <!-- Divider to Currently Exploring -->
-      <line x1="50" y1="406" x2="950" y2="406" stroke="#e2e8f0" stroke-width="1.2" stroke-dasharray="4 4"/>
+      <line x1="50" y1="422" x2="950" y2="416" stroke="#e2e8f0" stroke-width="1.2" stroke-dasharray="4 4"/>
 
       <!-- 2.2 CURRENTLY EXPLORING (Positioned ABOVE Technologies) -->
-      <text x="56" y="434" font-family="'SFMono-Regular', Consolas, monospace" font-size="12" font-weight="700" fill="#0284c7" letter-spacing="1.5">
+      <text x="56" y="440" font-family="'SFMono-Regular', Consolas, monospace" font-size="12" font-weight="700" fill="#0284c7" letter-spacing="1.5">
         🚀 CURRENTLY EXPLORING
       </text>
 
-      <g transform="translate(56, 448)">
+      <g transform="translate(56, 454)">
         <rect width="168" height="32" rx="9" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.2"/>
         <text x="14" y="20.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" font-weight="600" fill="#0369a1">☁️ Cloud &amp; Infra</text>
       </g>
 
-      <g transform="translate(236, 448)">
+      <g transform="translate(236, 454)">
         <rect width="160" height="32" rx="9" fill="#faf5ff" stroke="#7c3aed" stroke-width="1.2"/>
         <text x="14" y="20.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" font-weight="600" fill="#6d28d9">🤖 AI / ML</text>
       </g>
 
-      <g transform="translate(408, 448)">
+      <g transform="translate(408, 454)">
         <rect width="168" height="32" rx="9" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.2"/>
         <text x="14" y="20.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" font-weight="600" fill="#0369a1">🏗️ System Design</text>
       </g>
 
-      <g transform="translate(588, 448)">
+      <g transform="translate(588, 454)">
         <rect width="150" height="32" rx="9" fill="#faf5ff" stroke="#7c3aed" stroke-width="1.2"/>
         <text x="14" y="20.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" font-weight="600" fill="#6d28d9">🌐 Web Dev</text>
       </g>
 
-      <g transform="translate(750, 448)">
+      <g transform="translate(750, 454)">
         <rect width="194" height="32" rx="9" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/>
         <text x="12" y="20.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#15803d">🔓 Open Source &amp; Research</text>
       </g>
