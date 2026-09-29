@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./header.svg" width="100%" alt="Elvadsah — Developer Profile" />
+  <img src="./profile.svg" width="100%" alt="Elvadsah — Developer Profile" />
 </p>
 
 <br />
