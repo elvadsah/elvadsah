@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 210" width="850" height="210" fill="none" role="img" aria-label="About Me Card">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#0a0e14" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b8cff" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#8A2BE2" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3b8cff" stop-opacity="0.6"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="-425 0; 425 0; -425 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="cardDots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#334155" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- Base Card -->
+  <rect x="1" y="1" width="848" height="208" rx="16" fill="url(#cardGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <rect x="1" y="1" width="848" height="208" rx="16" fill="url(#cardDots)" />
+
+  <!-- Top Terminal Bar -->
+  <circle cx="25" cy="22" r="5" fill="#ef4444" opacity="0.9"/>
+  <circle cx="42" cy="22" r="5" fill="#f59e0b" opacity="0.9"/>
+  <circle cx="59" cy="22" r="5" fill="#10b981" opacity="0.9"/>
+  <text x="80" y="26" font-family="'SFMono-Regular', Consolas, 'Courier New', monospace" font-size="12" fill="#cbd5e1" font-weight="500">elvadsah ~ /about.sh</text>
+  <line x1="1" y1="38" x2="849" y2="38" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Left Bio Column -->
+  <text x="30" y="70" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">
+    Software Developer &amp; Lifelong Engineer
+  </text>
+  <text x="30" y="96" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13" font-weight="400" fill="#94a3b8">
+    Designing, building, and improving reliable software systems. Exploring modern
+  </text>
+  <text x="30" y="116" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13" font-weight="400" fill="#94a3b8">
+    backend engineering, cloud infrastructure, AI/ML architectures, and system design.
+  </text>
+  <text x="30" y="136" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13" font-weight="400" fill="#94a3b8">
+    Turning ideas into scalable, maintainable, and high-impact real-world solutions.
+  </text>
+
+  <!-- Status / Location Pill (Aligned with bottom right badge y=161) -->
+  <rect x="30" y="161" width="180" height="28" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+  <circle cx="45" cy="175" r="4" fill="#10b981">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="58" y="179.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">
+    Palembang, Indonesia
+  </text>
+
+  <!-- Right Side: Focus Badges -->
+  <text x="530" y="70" font-family="'SFMono-Regular', Consolas, monospace" font-size="12" font-weight="700" fill="#38bdf8" letter-spacing="1">
+    CURRENTLY EXPLORING
+  </text>
+
+  <!-- Tag 1: Cloud & Infra -->
+  <g transform="translate(530, 85)">
+    <rect width="140" height="28" rx="8" fill="#1e293b" stroke="#3b8cff" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="12" y="18.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" font-weight="600" fill="#93c5fd">☁️ Cloud &amp; Infra</text>
+  </g>
+
+  <!-- Tag 2: AI / ML -->
+  <g transform="translate(680, 85)">
+    <rect width="135" height="28" rx="8" fill="#1e293b" stroke="#8A2BE2" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="12" y="18.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" font-weight="600" fill="#d8b4fe">🤖 AI / ML</text>
+  </g>
+
+  <!-- Tag 3: System Design -->
+  <g transform="translate(530, 123)">
+    <rect width="140" height="28" rx="8" fill="#1e293b" stroke="#3b8cff" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="12" y="18.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" font-weight="600" fill="#93c5fd">🏗️ System Design</text>
+  </g>
+
+  <!-- Tag 4: Web Dev -->
+  <g transform="translate(680, 123)">
+    <rect width="135" height="28" rx="8" fill="#1e293b" stroke="#8A2BE2" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="12" y="18.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" font-weight="600" fill="#d8b4fe">🌐 Web Dev</text>
+  </g>
+
+  <!-- Tag 5: Open Source -->
+  <g transform="translate(530, 161)">
+    <rect width="285" height="28" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="12" y="18.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" font-weight="600" fill="#6ee7b7">🔓 Open Source &amp; Research</text>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 125" width="850" height="125" fill="none" role="img" aria-label="Philosophy Quote Card">
+  <defs>
+    <linearGradient id="quoteCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#0a0e14" />
+    </linearGradient>
+    <linearGradient id="quoteBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b8cff" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#8A2BE2" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3b8cff" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="848" height="123" rx="16" fill="url(#quoteCardGrad)" stroke="url(#quoteBorder)" stroke-width="1.2" />
+
+  <!-- Center Decorative Quote Icon -->
+  <g transform="translate(415, 14)">
+    <path d="M 0 10 Q -4 10 -7 13 Q -10 16 -10 20 Q -10 24 -6 24 Q -2 24 -2 20 Q -2 16 2 13 L 2 10 Z M 16 10 Q 12 10 9 13 Q 6 16 6 20 Q 6 24 10 24 Q 14 24 14 20 Q 14 16 18 13 L 18 10 Z" fill="#8A2BE2" opacity="0.8"/>
+  </g>
+
+  <!-- Greek Text -->
+  <text x="425" y="56" font-family="'Segoe UI', -apple-system, sans-serif" font-size="14" font-style="italic" fill="#a78bfa" text-anchor="middle" letter-spacing="0.5">
+    ὅτι ἃ μὴ οἶδα οὐδὲ οἴομαι εἰδέναι.
+  </text>
+
+  <!-- English Quote -->
+  <text x="425" y="82" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15.5" font-weight="600" fill="#f8fafc" text-anchor="middle">
+    “What I do not know I do not think I know.”
+  </text>
+
+  <!-- Attribution -->
+  <text x="425" y="106" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11.5" font-weight="500" fill="#64748b" text-anchor="middle" letter-spacing="1">
+    — SOCRATES, PLATO, APOLOGY 21D —
+  </text>
+</svg>
