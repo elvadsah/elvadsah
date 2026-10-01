@@ -368,6 +368,16 @@
                      dur="1.67s" begin="0.7s" repeatCount="indefinite"/>
           </path>
         </g>
+        <g transform="translate(1000, -34) scale(0.902 1.308)">
+          <path d="M0 -8 C -2.2 -4 -3 0.2 -3 2.6 A 3 3 0 0 0 3 2.6 C 3 0.2 2.2 -4 0 -8 Z" opacity="0.62">
+            <animateTransform attributeName="transform" type="translate"
+                              values="0 0; -7 274"
+                              dur="1.91s" begin="1.81s" repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values="0;0.62;0.53;0" keyTimes="0;0.14;0.72;1"
+                     dur="1.91s" begin="1.81s" repeatCount="indefinite"/>
+          </path>
+        </g>
       </g>
       <g stroke="#38bdf8" stroke-width="0.9" fill="#7dd3fc" fill-opacity="0.55">
         <g transform="translate(42, -34) scale(0.6 0.87)">
@@ -480,6 +490,16 @@
                      dur="1.47s" begin="0.44s" repeatCount="indefinite"/>
           </path>
         </g>
+        <g transform="translate(1010, -34) scale(0.727 1.054)">
+          <path d="M0 -8 C -2.2 -4 -3 0.2 -3 2.6 A 3 3 0 0 0 3 2.6 C 3 0.2 2.2 -4 0 -8 Z" opacity="0.5">
+            <animateTransform attributeName="transform" type="translate"
+                              values="0 0; 7 274"
+                              dur="1.18s" begin="0.98s" repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values="0;0.5;0.42;0" keyTimes="0;0.14;0.72;1"
+                     dur="1.18s" begin="0.98s" repeatCount="indefinite"/>
+          </path>
+        </g>
       </g>
       <g stroke="#bae6fd" stroke-width="0.9" fill="#e0f2fe" fill-opacity="0.55">
         <g transform="translate(24, -34) scale(1.1 1.595)">
@@ -562,552 +582,426 @@
                      dur="2.2s" begin="1.56s" repeatCount="indefinite"/>
           </path>
         </g>
+        <g transform="translate(1016, -34) scale(1.198 1.737)">
+          <path d="M0 -8 C -2.2 -4 -3 0.2 -3 2.6 A 3 3 0 0 0 3 2.6 C 3 0.2 2.2 -4 0 -8 Z" opacity="0.34">
+            <animateTransform attributeName="transform" type="translate"
+                              values="0 0; 7 274"
+                              dur="2.43s" begin="0.58s" repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values="0;0.34;0.29;0" keyTimes="0;0.14;0.72;1"
+                     dur="2.43s" begin="0.58s" repeatCount="indefinite"/>
+          </path>
+        </g>
       </g>
     </g>
-        <!-- Splash rings + rebound where drops meet the terminal edge -->
+
+    <!-- Splash rings + rebound where drops meet the terminal edge -->
     <g clip-path="url(#rainClip)">
       <g transform="translate(4.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
           <animate attributeName="rx" values="0;7.57" dur="0.42s" begin="1.32s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.22" dur="0.42s" begin="1.32s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="1.32s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="1.32s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.527">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -7.31" dur="0.34s" begin="1.32s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="1.32s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7.31" dur="0.34s" begin="1.32s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="1.32s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(76.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
           <animate attributeName="rx" values="0;8.17" dur="0.42s" begin="0.69s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.52" dur="0.42s" begin="0.69s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.69s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.69s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.527">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -8.04" dur="0.34s" begin="0.69s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.69s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8.04" dur="0.34s" begin="0.69s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.69s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(148.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
           <animate attributeName="rx" values="0;8.78" dur="0.42s" begin="1.85s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.81" dur="0.42s" begin="1.85s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="1.85s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="1.85s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.527">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -8.77" dur="0.34s" begin="1.85s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="1.85s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8.77" dur="0.34s" begin="1.85s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="1.85s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(202.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
           <animate attributeName="rx" values="0;7.91" dur="0.42s" begin="0.72s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.39" dur="0.42s" begin="0.72s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.72s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.72s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.527">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -7.72" dur="0.34s" begin="0.72s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.72s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7.72" dur="0.34s" begin="0.72s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.72s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(274.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
           <animate attributeName="rx" values="0;8.51" dur="0.42s" begin="1.81s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.68" dur="0.42s" begin="1.81s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="1.81s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="1.81s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.527">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -8.45" dur="0.34s" begin="1.81s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="1.81s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8.45" dur="0.34s" begin="1.81s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="1.81s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(346.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
           <animate attributeName="rx" values="0;7.64" dur="0.42s" begin="1.06s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.26" dur="0.42s" begin="1.06s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="1.06s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="1.06s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.527">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -7.4" dur="0.34s" begin="1.06s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="1.06s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7.4" dur="0.34s" begin="1.06s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="1.06s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(400.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
           <animate attributeName="rx" values="0;8.25" dur="0.42s" begin="0.05s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.55" dur="0.42s" begin="0.05s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.05s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.05s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.527">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -8.13" dur="0.34s" begin="0.05s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.05s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8.13" dur="0.34s" begin="0.05s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.05s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(472.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
           <animate attributeName="rx" values="0;8.85" dur="0.42s" begin="1.09s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.84" dur="0.42s" begin="1.09s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="1.09s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="1.09s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.527">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -8.86" dur="0.34s" begin="1.09s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="1.09s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8.86" dur="0.34s" begin="1.09s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="1.09s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(544.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
           <animate attributeName="rx" values="0;7.98" dur="0.42s" begin="0.20s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.42" dur="0.42s" begin="0.20s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.20s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.20s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.527">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -7.81" dur="0.34s" begin="0.20s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.20s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7.81" dur="0.34s" begin="0.20s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.20s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(598.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
           <animate attributeName="rx" values="0;8.58" dur="0.42s" begin="1.10s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.71" dur="0.42s" begin="1.10s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="1.10s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="1.10s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.527">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -8.54" dur="0.34s" begin="1.10s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="1.10s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8.54" dur="0.34s" begin="1.10s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="1.10s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(670.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
           <animate attributeName="rx" values="0;7.72" dur="0.42s" begin="0.31s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.3" dur="0.42s" begin="0.31s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.31s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.31s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.527">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -7.49" dur="0.34s" begin="0.31s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.31s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7.49" dur="0.34s" begin="0.31s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.31s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(742.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
           <animate attributeName="rx" values="0;8.32" dur="0.42s" begin="1.10s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.59" dur="0.42s" begin="1.10s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="1.10s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="1.10s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.527">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -8.22" dur="0.34s" begin="1.10s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="1.10s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8.22" dur="0.34s" begin="1.10s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="1.10s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(796.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
           <animate attributeName="rx" values="0;8.92" dur="0.42s" begin="0.39s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.88" dur="0.42s" begin="0.39s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.39s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.39s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.527">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -8.95" dur="0.34s" begin="0.39s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.39s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8.95" dur="0.34s" begin="0.39s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.39s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(868.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
           <animate attributeName="rx" values="0;8.06" dur="0.42s" begin="1.55s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.46" dur="0.42s" begin="1.55s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="1.55s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="1.55s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.527">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -7.9" dur="0.34s" begin="1.55s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="1.55s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7.9" dur="0.34s" begin="1.55s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="1.55s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(940.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
           <animate attributeName="rx" values="0;8.66" dur="0.42s" begin="0.46s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.75" dur="0.42s" begin="0.46s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.46s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.46s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.527">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -8.63" dur="0.34s" begin="0.46s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.46s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8.63" dur="0.34s" begin="0.46s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.46s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <g transform="translate(994.0, 200)">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.527">
+          <animate attributeName="rx" values="0;7.79" dur="0.42s" begin="1.53s" repeatCount="indefinite"/>
+          <animate attributeName="ry" values="0;3.33" dur="0.42s" begin="1.53s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.25;1" dur="0.42s" begin="1.53s" repeatCount="indefinite"/>
+        </ellipse>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.527">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7.58" dur="0.34s" begin="1.53s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.527;0" keyTimes="0;0.2;1" dur="0.34s" begin="1.53s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(36.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
           <animate attributeName="rx" values="0;6.52" dur="0.42s" begin="0.98s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;2.72" dur="0.42s" begin="0.98s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.98s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.98s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.425">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -6.04" dur="0.34s" begin="0.98s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.98s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.425">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6.04" dur="0.34s" begin="0.98s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.98s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(130.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
           <animate attributeName="rx" values="0;6.95" dur="0.42s" begin="0.51s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;2.93" dur="0.42s" begin="0.51s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.51s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.51s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.425">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -6.57" dur="0.34s" begin="0.51s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.51s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.425">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6.57" dur="0.34s" begin="0.51s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.51s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(224.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
           <animate attributeName="rx" values="0;7.38" dur="0.42s" begin="1.35s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.13" dur="0.42s" begin="1.35s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="1.35s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1" dur="0.42s" begin="1.35s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.425">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -7.08" dur="0.34s" begin="1.35s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="1.35s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.425">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7.08" dur="0.34s" begin="1.35s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1" dur="0.34s" begin="1.35s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(300.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
           <animate attributeName="rx" values="0;6.76" dur="0.42s" begin="0.53s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;2.83" dur="0.42s" begin="0.53s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.53s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.53s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.425">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -6.34" dur="0.34s" begin="0.53s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.53s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.425">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6.34" dur="0.34s" begin="0.53s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.53s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(394.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
           <animate attributeName="rx" values="0;7.19" dur="0.42s" begin="1.33s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.04" dur="0.42s" begin="1.33s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="1.33s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1" dur="0.42s" begin="1.33s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.425">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -6.86" dur="0.34s" begin="1.33s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="1.33s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.425">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6.86" dur="0.34s" begin="1.33s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1" dur="0.34s" begin="1.33s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(488.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
           <animate attributeName="rx" values="0;6.57" dur="0.42s" begin="0.77s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;2.74" dur="0.42s" begin="0.77s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.77s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.77s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.425">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -6.1" dur="0.34s" begin="0.77s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.77s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.425">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6.1" dur="0.34s" begin="0.77s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.77s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(564.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
           <animate attributeName="rx" values="0;7.0" dur="0.42s" begin="0.05s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;2.95" dur="0.42s" begin="0.05s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.05s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.05s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.425">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -6.63" dur="0.34s" begin="0.05s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.05s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.425">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6.63" dur="0.34s" begin="0.05s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.05s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(658.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
           <animate attributeName="rx" values="0;7.43" dur="0.42s" begin="0.80s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.16" dur="0.42s" begin="0.80s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.80s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.80s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.425">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -7.15" dur="0.34s" begin="0.80s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.80s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.425">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7.15" dur="0.34s" begin="0.80s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.80s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(752.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
           <animate attributeName="rx" values="0;6.81" dur="0.42s" begin="0.15s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;2.86" dur="0.42s" begin="0.15s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.15s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.15s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.425">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -6.4" dur="0.34s" begin="0.15s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.15s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.425">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6.4" dur="0.34s" begin="0.15s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.15s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(828.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
           <animate attributeName="rx" values="0;7.24" dur="0.42s" begin="0.81s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.07" dur="0.42s" begin="0.81s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.81s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.81s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.425">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -6.92" dur="0.34s" begin="0.81s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.81s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.425">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6.92" dur="0.34s" begin="0.81s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.81s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(922.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
           <animate attributeName="rx" values="0;6.62" dur="0.42s" begin="0.23s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;2.77" dur="0.42s" begin="0.23s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.23s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.23s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.425">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -6.17" dur="0.34s" begin="0.23s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.23s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.425">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6.17" dur="0.34s" begin="0.23s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.23s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <g transform="translate(1016.0, 200)">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.425">
+          <animate attributeName="rx" values="0;7.05" dur="0.42s" begin="0.81s" repeatCount="indefinite"/>
+          <animate attributeName="ry" values="0;2.98" dur="0.42s" begin="0.81s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.81s" repeatCount="indefinite"/>
+        </ellipse>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.425">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6.69" dur="0.34s" begin="0.81s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.425;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.81s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(18.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
           <animate attributeName="rx" values="0;8.62" dur="0.42s" begin="1.58s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.73" dur="0.42s" begin="1.58s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="1.58s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1" dur="0.42s" begin="1.58s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.289">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -8.58" dur="0.34s" begin="1.58s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="1.58s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.289">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8.58" dur="0.34s" begin="1.58s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1" dur="0.34s" begin="1.58s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(148.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
           <animate attributeName="rx" values="0;9.22" dur="0.42s" begin="0.80s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;4.03" dur="0.42s" begin="0.80s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.80s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.80s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.289">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -9.31" dur="0.34s" begin="0.80s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.80s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.289">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -9.31" dur="0.34s" begin="0.80s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.80s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(278.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
           <animate attributeName="rx" values="0;9.83" dur="0.42s" begin="2.10s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;4.32" dur="0.42s" begin="2.10s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="2.10s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1" dur="0.42s" begin="2.10s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.289">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -10.04" dur="0.34s" begin="2.10s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="2.10s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.289">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -10.04" dur="0.34s" begin="2.10s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1" dur="0.34s" begin="2.10s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(390.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
           <animate attributeName="rx" values="0;8.96" dur="0.42s" begin="0.85s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.9" dur="0.42s" begin="0.85s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.85s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.85s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.289">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -8.99" dur="0.34s" begin="0.85s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.85s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.289">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8.99" dur="0.34s" begin="0.85s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.85s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(520.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
           <animate attributeName="rx" values="0;9.56" dur="0.42s" begin="2.09s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;4.19" dur="0.42s" begin="2.09s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="2.09s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1" dur="0.42s" begin="2.09s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.289">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -9.72" dur="0.34s" begin="2.09s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="2.09s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.289">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -9.72" dur="0.34s" begin="2.09s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1" dur="0.34s" begin="2.09s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(650.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
           <animate attributeName="rx" values="0;8.69" dur="0.42s" begin="1.19s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;3.77" dur="0.42s" begin="1.19s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="1.19s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1" dur="0.42s" begin="1.19s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.289">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -8.67" dur="0.34s" begin="1.19s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="1.19s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.289">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8.67" dur="0.34s" begin="1.19s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1" dur="0.34s" begin="1.19s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(762.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
           <animate attributeName="rx" values="0;9.3" dur="0.42s" begin="0.07s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;4.06" dur="0.42s" begin="0.07s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="0.07s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.07s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.289">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -9.4" dur="0.34s" begin="0.07s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="0.07s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.289">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -9.4" dur="0.34s" begin="0.07s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.07s" repeatCount="indefinite"/>
         </path>
       </g>
       <g transform="translate(892.0, 200)">
-        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none"
-                 stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
           <animate attributeName="rx" values="0;9.9" dur="0.42s" begin="1.24s" repeatCount="indefinite"/>
           <animate attributeName="ry" values="0;4.35" dur="0.42s" begin="1.24s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1"
-                   dur="0.42s" begin="1.24s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1" dur="0.42s" begin="1.24s" repeatCount="indefinite"/>
         </ellipse>
-        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z"
-              fill="#7dd3fc" opacity="0.289">
-          <animateTransform attributeName="transform" type="translate"
-                                values="0 0; 0 -10.13" dur="0.34s" begin="1.24s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1"
-                   dur="0.34s" begin="1.24s" repeatCount="indefinite"/>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.289">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -10.13" dur="0.34s" begin="1.24s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1" dur="0.34s" begin="1.24s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <g transform="translate(1022.0, 200)">
+        <ellipse cx="0" cy="0" rx="0" ry="0" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.289">
+          <animate attributeName="rx" values="0;9.03" dur="0.42s" begin="0.23s" repeatCount="indefinite"/>
+          <animate attributeName="ry" values="0;3.93" dur="0.42s" begin="0.23s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.25;1" dur="0.42s" begin="0.23s" repeatCount="indefinite"/>
+        </ellipse>
+        <path d="M0 -1.6 C -0.9 -0.4 -1.2 0.6 -1.2 1.3 A 1.2 1.2 0 0 0 1.2 1.3 C 1.2 0.6 0.9 -0.4 0 -1.6 Z" fill="#7dd3fc" opacity="0.289">
+          <animateTransform attributeName="transform" type="translate" values="0 0; 0 -9.08" dur="0.34s" begin="0.23s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0.289;0" keyTimes="0;0.2;1" dur="0.34s" begin="0.23s" repeatCount="indefinite"/>
         </path>
       </g>
     </g>
