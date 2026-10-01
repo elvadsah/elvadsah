@@ -30,5 +30,23 @@
 <br />
 
 <p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=elvadsah&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank=1"
+    alt="Aditya's GitHub Stats"
+  />
+</p>
+
+<br />
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/elvadsah/elvadsah/output/github-snake.svg"
+    alt="Aditya's contribution snake"
+  />
+</p>
+
+<br />
+
+<p align="center">
   <img src="./github-metrics.svg" width="85%" alt="GitHub Metrics" />
 </p>
